@@ -1,0 +1,12 @@
+<div class="container">
+
+  <div class="card-container">
+    <mat-card class="" *ngFor="let pokemon of pokemons; let i = index">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{pokemon.name}}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="{{pokemon.image}}" alt="Photo of a Shiba Inu">
+    </mat-card>
+  </div>
+</div>
